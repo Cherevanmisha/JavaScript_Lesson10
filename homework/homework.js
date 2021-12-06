@@ -46,11 +46,11 @@
 
 // - Создайте меню, которое раскрывается/сворачивается при клике
 
-let menu= document.querySelector('.menu');
-let title = menu.querySelector('.title');
-title.onclick = function () {
-    menu.classList.toggle('onOff');
-};
+// let menu= document.querySelector('.menu');
+// let title = menu.querySelector('.title');
+// title.onclick = function () {
+//     menu.classList.toggle('onOff');
+// };
 
 
 
@@ -59,3 +59,28 @@ title.onclick = function () {
 //     Вывести список комментариев в документ, каждый в своем блоке.
 //     Добавьте каждому комментарию по кнопке для сворачивания его body.
 //
+// let comments = [
+//     {title: 'Mazda', color: 'white'},
+//     {title: 'Porsche', color: 'Black'},
+//     {title: 'Hyundai', color: 'Green'},
+//
+// ];
+// let divElement = document.createElement('div');
+// for (const item of comments) {
+//     let div = document.createElement('div');
+//     let h3 = document.createElement('h3');
+//     let p = document.createElement('p');
+//     let btn = document.createElement('button');
+//     let hr = document.createElement('hr');
+//
+//     h3.innerText = item.title;
+//     p.innerHTML = item.color;
+//     btn.innerHTML = 'hide'
+//
+//     btn.onclick = () => {
+//         p.classList.add('pHidden');
+//     }
+//     div.append(h3, p, btn);
+//     divElement.append(div, hr);
+// }
+// document.body.appendChild(divElement)

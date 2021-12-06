@@ -1,7 +1,13 @@
+
 .menu {
     cursor: pointer;
 }
-.menu.onOff ul{
+
+.menu.hidden ul {
+    display: none;
+}
+
+.pHidden {
     display: none;
 }
 
