@@ -27,19 +27,33 @@
 // кинути алерт з попередженням.
 //     Перевірку робити при натисканні на кнопку
 
-
-const animals = ['cat', 'dog', 'bat'];
-
-console.log(animals.includes('frog'));
-click.onclick = onOff => {
-    if (animals)
-        alert("false")
-};
-
-
+//
+// const animals = ['cat', 'dog', 'bat'];
+//
+// let click = document.getElementById('click');
+// click.onclick = function () {
+//     let an = document.getElementById('animal').value;
+//     for (const anElement of animals) {
+//         if (anElement === an) {
+//             alert('stop')
+//         }
+//     }
+// }
 
 // - Сворити масив не цензцрних слів.
 //     Сворити інпут текстового типу.
 //     Потрібно перевіряти чи не містить ціле речення в собі погані слова.
 //     Кинути алерт з попередженням у випадку якщо містить.
 //     Перевірку робити при натисканні на кнопку
+
+// const animals = ['cat', 'dog', 'bat'];
+//
+// let click = document.getElementById('click');
+// click.onclick = function () {
+//     let animal = document.getElementById('animal').value;
+//     for (const anElement of animals) {
+//         if (animal.includes(anElement)) {
+//             alert('stop');
+//         }
+//     }
+// }
